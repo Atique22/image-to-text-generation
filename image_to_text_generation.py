@@ -23,7 +23,7 @@ def generate_text_from_extracted_text(extracted_text):
 
 if __name__ == "__main__":
     # Replace 'your_image_path.jpg' with the path to your image file
-    image_path = "image.png"
+    image_path = "text-custom-font.jpg"
 
     # Step 1: Extract text from the image using Tesseract OCR
     extracted_text = extract_text_from_image(image_path)
